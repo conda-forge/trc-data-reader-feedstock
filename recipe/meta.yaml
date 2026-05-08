@@ -1,5 +1,5 @@
 {% set name = "trc-data-reader" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hsorby/trc-data-reader/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c70c66b8b0f3d826834a217716648ea8c9002178e88befee16df8d287f501aef
+  sha256: 6046a8ec0e9556d530b6fcd6923590d19dcffd024f71c991b87987ab107ec8ae
 
 build:
   noarch: python
